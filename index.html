@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Pak Elite </title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="bg-blue-700 ">
+        <div class="container mx-auto flex w-full  h-16 justify-evenly lg:justify-around items-center ">
+        <div class="flex items-center">
+            <a href="#home" class="text-white font-bold  text-base lg:text-2xl  hover:text-blue-200 transition-colors duration-200" >The Pak Elite Schoo & College</a>
+        </div>
+
+        <div class="block md:hidden">
+            <button id="mobile-menu-button" class="flex items-center px-4 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+              <svg class="fill-current h-4 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+        </div>
+
+        <div class="hidden md:flex space-x-1  md:space-x-5 text-white font-bold  items-center">
+            <a href="#home" class="hover:text-blue-200 transition-colors duration-200 hover:underline">Home</a>
+            <a href="#about" class="hover:text-blue-200 transition-colors duration-200 hover:underline">About</a>
+            <a href="#courses" class="hover:text-blue-200 transition-colors duration-200 hover:underline">Courses</a>
+        </div>
+
+        <div>
+            <a href="#contact" class="hidden  md:block bg-yellow-400 hover:bg-yellow-500 text[20px] text-xl py-2 px-5 rounded-md transition-colors duration-200" >Contact Us</a>
+        </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden ">
+            <a href="#home" class="block py-2 px-4 text-sm text-white hover:bg-blue-700 transition-colors duration-200">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-white hover:bg-blue-700 transition-colors duration-200">About </a>
+            <a href="#courses" class="block py-2 px-4 text-sm text-white hover:bg-blue-700 transition-colors duration-200">Courses</a>
+            <a href="#blog" class="block py-2 px-4 text-sm text-white hover:bg-blue-700 transition-colors duration-200">Blog</a>
+            <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-blue-700 transition-colors duration-200">Contact Us</a>      
+          </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section id="home" class="bg-blue-100 py-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
+          <div class="md:w-1/2 text-center md:text-left p-8">
+            <h1 class="text-4xl md:text-6xl font-bold text-blue-800 mb-6 leading-tight">
+                Building Foundations <br>for Bright Futures
+            </h1>
+            <p class="text-lg text-gray-700 mb-8">
+                Welcome to a world of fun and discovery! Our school program helps children explore, play, and learn through exciting activities. We focus on building early skills and a love for learning
+            </p>
+            
+            <a href="#about" id="about" class="bg-yellow-400 hover:bg-yellow-500  font-bold py-3 px-6 rounded-md transition-colors duration-200" >Discover Our school</a>
+            
+          </div>
+          <div class="md:w-1/2 flex justify-center">
+              <img src="https://images.pexels.com/photos/8363087/pexels-photo-8363087.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Learning Illustration" class="max-w-full h-auto rounded-lg overflow-hidden cursor-pointer shadow-lg ">
+          </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold text-blue-800 mb-8 text-center">About Our School</h2>
+      
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                At our school, our mission is to provide a nurturing and stimulating learning environment that empowers students to reach their full potential. We are committed to fostering academic excellence, personal growth, and a lifelong love of learning.
+              </p>
+            </div>
+      
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                We envision a community of learners who are equipped with the knowledge, skills, and character to thrive in a rapidly changing world. We strive to create an inclusive and supportive atmosphere where every student feels valued and inspired.
+              </p>
+            </div>
+      
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Values</h3>
+              <ul class="list-disc list-inside text-lg text-blue-600">
+                <li>Academic Excellence</li>
+                <li>Integrity and Respect</li>
+                <li>Innovation and Creativity</li>
+                <li>Community and Collaboration</li>
+                <li>Personal Growth and Responsibility</li>
+              </ul>
+            </div>
+      
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Faculty</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                Our dedicated and experienced faculty members are passionate about teaching and committed to student success. They create engaging and interactive learning experiences that inspire curiosity and foster a love of learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Courses section-->
+    
+      <section  id="courses" class=" py-16">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold text-blue-800 mb-8 text-center">Our School Programs</h2>
+      
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Preschool</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                Our preschool program provides a nurturing environment for children aged 3-5. We focus on play-based learning, social development, and building foundational skills for future academic success.
+              </p>
+              <ul class="list-disc list-inside text-lg text-blue-600">
+                <li>Creative Play</li>
+                <li>Early Literacy</li>
+                <li>Social Skills</li>
+                <li>Art and Music</li>
+              </ul>
+            </div>
+      
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Elementary School</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                Our elementary school program caters to students aged 6-11, emphasizing a strong foundation in core subjects. We foster a love for learning through engaging lessons and hands-on activities.
+              </p>
+              <ul class="list-disc list-inside text-lg text-blue-600">
+                <li>Reading and Writing</li>
+                <li>Mathematics</li>
+                <li>Science and Exploration</li>
+                <li>Arts and Physical Education</li>
+              </ul>
+            </div>
+      
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Higher School</h3>
+              <p class="text-lg text-blue-600 mb-6">
+                Our higher school program prepares students aged 12-18 for college and future careers. We offer a challenging curriculum, advanced courses, and opportunities for personal and academic growth.
+              </p>
+              <ul class="list-disc list-inside text-lg text-blue-600">
+                <li>Advanced Placement (AP) Courses</li>
+                <li>College Counseling</li>
+                <li>Extracurricular Activities</li>
+                <li>Leadership Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+      <!-- Contact section -->
+
+      <section id="contact" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold text-blue-800 mb-8 text-center">Contact Us</h2>
+      
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <p class="text-lg text-gray-700 mb-6">
+                We'd love to hear from you! Please fill out the form below or contact us using the information provided.
+              </p>
+      
+              <p class="text-lg text-gray-700 mb-4">
+                <strong>Address:</strong> R-480 Sector 30-C Shah Latif Town Karachi.
+              </p>
+              <p class="text-lg text-gray-700 mb-4">
+                <strong>Phone:</strong> +92 314 2195296
+              </p>
+              <p class="text-lg text-gray-700 mb-4">
+                <strong>Email:</strong> Pakelite@gmail.com
+              </p>
+            </div>
+      
+            <div>
+              <form class="space-y-4">
+                <div>
+                  <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                  <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+                </div>
+      
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                  <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+                </div>
+      
+                <div>
+                  <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                  <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                </div>
+      
+                <div>
+                  <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md transition-colors duration-200">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button id="scrollToTopBtn" class="fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-600 text-white rounded-full p-3 shadow-md cursor-pointer hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+
+      <footer class="bg-blue-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-semibold mb-4">About Us</h3>
+              <p class="text-sm">
+                Pak Elite School is committed to providing a high-quality education and fostering a love of learning in our students.
+              </p>
+            </div>
+      
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Contact</h3>
+              <p class="text-sm">
+                Address: R-480 Sector 30-C Shah Latif Town Karachi. <br />
+                Phone: +92 314 2195296 <br />
+                Email: Pakelite@gmail.com
+              </p>
+            </div>
+      
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul class="text-sm">
+                <li><a href="#" class="hover:text-white">Home</a></li>
+                <li><a href="#" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Programs</a></li>
+                <li><a href="#" class="hover:text-white">Contact Us</a></li>
+              </ul>
+            </div>
+      
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+              <div class="flex space-x-4">
+                <a href="#" class="hover:text-white"><i class="fab fa-facebook-square text-2xl"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-twitter-square text-2xl"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-instagram-square text-2xl"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-linkedin text-2xl"></i></a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mt-8 border-t border-gray-700 pt-4 text-center">
+            <p class="text-sm">&copy; 2025 The Pak Elite School. All rights reserved. | <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a></p>
+          </div>
+        </div>
+      </footer>
+
+    <script>
+      
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+mobileMenuButton.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+});
+
+
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              scrollToTopBtn.classList.remove("hidden");
+          } else {
+              scrollToTopBtn.classList.add("hidden");
+          }
+      }
+
+      scrollToTopBtn.addEventListener("click", function() {
+          window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+          });
+      });
+
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+        
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+        
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+    </script>
+</body>
+</html>
+
+
